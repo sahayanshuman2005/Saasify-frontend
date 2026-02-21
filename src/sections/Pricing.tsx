@@ -106,8 +106,14 @@ export const Pricing = () => {
         <span className="text-4xl font-bold tracking-tighter leading-none">${monthlyPrice}</span>
         <span className="tracking-tight font-bold text-black/50">/month</span>
       </div>
-      <button className={twMerge("btn btn-primary w-full mt-[30px]",inverse === true && "bg-white text-black"
-      )}>{buttonText}</button>
+      <button
+       className={twMerge(
+       "btn btn-primary w-full mt-[30px]",
+        inverse === true && "bg-white text-black"
+        )}
+        >
+        {buttonText}
+        </button>
       <ul className="flex flex-col gap-5 mt-8">
         {features.map((feature,index) => (
         <li key={index} className="text-sm flex items-center gap-4">

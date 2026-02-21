@@ -7,9 +7,6 @@ const dmSans = DM_Sans({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Saasify",
-  icons: {
-    icon: "/app/favicon.png",
-  },
 };
 
 export default function RootLayout({
